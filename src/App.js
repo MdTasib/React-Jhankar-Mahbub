@@ -4,6 +4,7 @@ import CountryRoute from './Components/Country/CountryRoute';
 import State from './Components/State/State';
 import Context from './Components/Context/Context';
 import BasicRoute from './Components/Route/Route';
+import Data from './Components/MultipleDataLoad/Data';
 
 
 function App() {
@@ -17,7 +18,10 @@ function App() {
 
       {/* <Context /> */}
 
-      <BasicRoute />
+      {/* <BasicRoute /> */}
+
+      <Data />
+
     </div>
   )
 }
