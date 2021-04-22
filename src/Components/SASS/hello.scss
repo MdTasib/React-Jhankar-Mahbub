@@ -1,0 +1,36 @@
+@import './styles.scss';
+
+.first-box {
+    border: 1px solid $border-color;
+    color: $primary;
+}
+.second-box {
+    border: 1px solid $border-color;
+    color: $danger;
+}
+.third-box {
+    border: 1px solid $border-color;
+    color: $primary;
+}
+.fourth-box {
+    border: 1px solid $border-color;
+    color: $danger;
+}
+.para {
+    font-size: $large;
+    background: $bg-primary;
+}
+
+// nested scss
+.container {
+    button {
+        padding: 10px 30px;
+        border-radius: 10px;
+        background: $bg-danger;
+        color: $white;
+        &:hover {
+            color: $danger;
+            background: $bg-primary;
+        }
+    }
+}
