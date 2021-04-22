@@ -11,6 +11,8 @@ import { useState } from 'react';
 import Hello from './Components/SASS/Hello';
 import Home from './Components/ClassComponent/Home';
 import ExploreRef from './Components/Hooks/ExploreRef';
+import ReducerCount from './Components/Hooks/ReducerCount/ReducerCount';
+import PatientManagement from './Components/Hooks/PatientManagement/PatientManagement';
 
 
 function App() {
@@ -39,7 +41,9 @@ function App() {
       <Direction origin={origin} destination={destination} /> */}
       {/* <Hello /> */}
       {/* <Home /> */}
-      <ExploreRef />
+      {/* <ExploreRef /> */}
+      <ReducerCount />
+      <PatientManagement />
     </div>
   )
 }
