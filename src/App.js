@@ -14,6 +14,7 @@ import ExploreRef from './Components/Hooks/ExploreRef';
 import ReducerCount from './Components/Hooks/ReducerCount/ReducerCount';
 import PatientManagement from './Components/Hooks/PatientManagement/PatientManagement';
 import Route from './Components/Route/Basic-Router/Route';
+import MaterialUi from './Components/Material-Ui/MaterialUi';
 
 
 function App() {
@@ -45,7 +46,8 @@ function App() {
       {/* <ExploreRef /> */}
       {/* <ReducerCount />
       <PatientManagement /> */}
-      <Route />
+      {/* <Route /> */}
+      <MaterialUi />
     </div>
   )
 }
