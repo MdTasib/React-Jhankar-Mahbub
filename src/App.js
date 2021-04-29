@@ -1,4 +1,5 @@
 import './App.css';
+import { useState } from 'react';
 import RouterComponent from './Components/Friends/Route';
 import CountryRoute from './Components/Country/CountryRoute';
 import State from './Components/State/State';
@@ -7,12 +8,12 @@ import BasicRoute from './Components/Route/Route';
 import Data from './Components/MultipleDataLoad/Data';
 import Map from './Components/GoogleMap/Map';
 import Direction from './Components/GoogleMap/Direction';
-import { useState } from 'react';
 import Hello from './Components/SASS/Hello';
 import Home from './Components/ClassComponent/Home';
 import ExploreRef from './Components/Hooks/ExploreRef';
 import ReducerCount from './Components/Hooks/ReducerCount/ReducerCount';
 import PatientManagement from './Components/Hooks/PatientManagement/PatientManagement';
+import Route from './Components/Route/Basic-Router/Route';
 
 
 function App() {
@@ -42,8 +43,9 @@ function App() {
       {/* <Hello /> */}
       {/* <Home /> */}
       {/* <ExploreRef /> */}
-      <ReducerCount />
-      <PatientManagement />
+      {/* <ReducerCount />
+      <PatientManagement /> */}
+      <Route />
     </div>
   )
 }
