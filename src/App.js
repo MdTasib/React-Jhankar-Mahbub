@@ -15,6 +15,7 @@ import ReducerCount from './Components/Hooks/ReducerCount/ReducerCount';
 import PatientManagement from './Components/Hooks/PatientManagement/PatientManagement';
 import Route from './Components/Route/Basic-Router/Route';
 import MaterialUi from './Components/Material-Ui/MaterialUi';
+import Stripe from './Components/Stripe/Stripe';
 
 
 function App() {
@@ -47,7 +48,9 @@ function App() {
       {/* <ReducerCount />
       <PatientManagement /> */}
       {/* <Route /> */}
-      <MaterialUi />
+      {/* <MaterialUi /> */}
+
+      <Stripe />
     </div>
   )
 }
