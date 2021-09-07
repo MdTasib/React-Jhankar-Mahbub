@@ -23,7 +23,6 @@ function App() {
   const [origin, setOrigin] = useState('');
   const [destination, setDestination] = useState('');
 
-
   return (
     <div className='App'>
       {/* <RouterComponent /> */}
@@ -50,7 +49,7 @@ function App() {
       {/* <Route /> */}
       {/* <MaterialUi /> */}
 
-      <Stripe />
+      {/* <Stripe /> */}
     </div>
   )
 }
